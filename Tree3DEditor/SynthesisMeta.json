@@ -1,8 +1,8 @@
 {
-  "Nickname": "",
+  "Nickname": "Tree 3D Editor",
   "Visibility": "Visible",
-  "OneLineDescription": "",
-  "LongDescription": "",
+  "OneLineDescription": "Allows editing of selected tree EDID's X, Y and Z data.",
+  "LongDescription": "Allows editing of selected tree EDID's X, Y and Z data.",
   "PreferredAutoVersioning": "Default",
   "RequiredMods": [],
   "TargetedReleases": [
