@@ -1,1 +1,1 @@
-Synthesis patcher that allows editing of selected tree EDID's X, Y and Z data. 
+Synthesis patcher that allows editing of specific Tree type X, Y and Z placement data.
