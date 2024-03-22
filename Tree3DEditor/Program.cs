@@ -72,18 +72,7 @@ namespace Tree3DEditor
                     {
                         if (modifiedObject.Placement != null)
                         {
-                            if (Settings.XPosModifier < 0)
-                            {
-                                modifiedObject.Placement.Position = new P3Float(modifiedObject.Placement.Position.X - Settings.XPosModifier, modifiedObject.Placement.Position.Y, modifiedObject.Placement.Position.Z);
-                            }
-                            else if (Settings.XPosModifier > 0)
-                            {
-                                modifiedObject.Placement.Position = new P3Float(modifiedObject.Placement.Position.X + Settings.XPosModifier, modifiedObject.Placement.Position.Y, modifiedObject.Placement.Position.Z);
-                            }
-                            else if (Settings.XPosModifier == 0)
-                            { 
-                                continue; 
-                            }
+                            modifiedObject.Placement.Position = new P3Float(modifiedObject.Placement.Position.X + Settings.XPosModifier, modifiedObject.Placement.Position.Y, modifiedObject.Placement.Position.Z);
                         }
                     }
 
@@ -92,18 +81,7 @@ namespace Tree3DEditor
                     {
                         if (modifiedObject.Placement != null)
                         {
-                            if (Settings.YPosModifier < 0)
-                            {
-                                modifiedObject.Placement.Position = new P3Float(modifiedObject.Placement.Position.X, modifiedObject.Placement.Position.Y - Settings.YPosModifier, modifiedObject.Placement.Position.Z);
-                            }
-                            else if (Settings.YPosModifier > 0)
-                            {
-                                modifiedObject.Placement.Position = new P3Float(modifiedObject.Placement.Position.X, modifiedObject.Placement.Position.Y + Settings.YPosModifier, modifiedObject.Placement.Position.Z);
-                            }
-                            else if (Settings.YPosModifier == 0)
-                            {  
-                                continue; 
-                            }
+                            modifiedObject.Placement.Position = new P3Float(modifiedObject.Placement.Position.X, modifiedObject.Placement.Position.Y + Settings.YPosModifier, modifiedObject.Placement.Position.Z);
                         }
                     }
 
@@ -112,18 +90,7 @@ namespace Tree3DEditor
                     {
                         if (modifiedObject.Placement != null)
                         {
-                            if (Settings.ZPosModifier < 0)
-                            {
-                                modifiedObject.Placement.Position = new P3Float(modifiedObject.Placement.Position.X, modifiedObject.Placement.Position.Y, modifiedObject.Placement.Position.Z - Settings.ZPosModifier);
-                            }
-                            else if (Settings.ZPosModifier > 0)
-                            {
-                                modifiedObject.Placement.Position = new P3Float(modifiedObject.Placement.Position.X, modifiedObject.Placement.Position.Y, modifiedObject.Placement.Position.Z + Settings.ZPosModifier);
-                            }
-                            else if (Settings.ZPosModifier == 0)
-                            {
-                                continue;
-                            }
+                            modifiedObject.Placement.Position = new P3Float(modifiedObject.Placement.Position.X, modifiedObject.Placement.Position.Y, modifiedObject.Placement.Position.Z + Settings.ZPosModifier);
                         }
                     }
                 }
